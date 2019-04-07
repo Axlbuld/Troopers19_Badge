@@ -20,6 +20,7 @@ os.listdir("/apps") # see directory /apps
 fs = open("config.json")
 fs.read("config.json")
 fs.close()
+```
 
 ## Others Work
 * Nice GIST about uploading images: https://gist.github.com/doegox/042c400e19394e6bca4dae70067d4dc3
