@@ -5,7 +5,8 @@ My inoffical collection of Troopers19 Badge Stuff
 * install esptool from https://github.com/espressif/esptool
 * check connection and hardware: `esptool.py -p /dev/ttyUSB0 flash_id`
 * connect to serial with screen: `screen /dev/ttyUSB0 115200` (exit with CTRL-A K)
-* write image: `esptool.py -p /dev/ttyUSB0 write_flash 0x0 flash_4MB.bin
+* write image: `esptool.py -p /dev/ttyUSB0 write_flash 0x0 flash_4MB.bin`
+* read image: `esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 115200 read_flash 0 0x400000 filename.bin`
 
 ## Micropython stuff
 * connect to serial with screen: `screen /dev/ttyUSB0 115200` (exit with CTRL-A K) (or miniterm or minicom or putty or...)
